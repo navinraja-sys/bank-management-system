@@ -30,6 +30,8 @@ A console-based Bank Management System built using **Core Java** and **MySQL**, 
 
 ```
 BankManagementSystem/
+├── database/
+│   ├── schema.sql           # SQL schema file
 ├── src/main/java/com/bank/
 │   ├── Main.java            # Entry point & menu
 │   ├── DBConnection.java    # JDBC connection setup
@@ -54,7 +56,7 @@ BankManagementSystem/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/bank-management-system.git
+   git clone https://github.com/navinraja-sys/bank-management-system.git
    ```
 
 2. **Set up the database**
